@@ -26,9 +26,9 @@ namespace SeleniumTests
 
             PortalPages login = new PortalPages(_driver);
 
-            login.EnterUsername = "olga.bykova";
+            login.EnterUsername = "username";
 
-            login.EnterPassword = "Notulp1994";
+            login.EnterPassword = "userpassword";
 
             login.ClickLogin();
 

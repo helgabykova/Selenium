@@ -21,7 +21,7 @@ namespace SeleniumTests
         [Test]
         public void VerifyOfficeTimePage()
         {
-            _driver.Url = "https://olga.bykova:Notulp1994@portal-ua.globallogic.com/officetime/";
+            _driver.Url = "https://username:userpassword@portal-ua.globallogic.com/officetime/";
 
             OfficeTimePages officetime = new OfficeTimePages(_driver);
 
